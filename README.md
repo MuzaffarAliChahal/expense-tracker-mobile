@@ -44,6 +44,8 @@ npm test                # Jest
 npm run typecheck       # tsc --noEmit
 ```
 
+The screenshot at the top is generated from the real web build by [`scripts/readme-screenshots.mjs`](scripts/readme-screenshots.mjs) (Playwright). Run the **Update README screenshots** workflow in the Actions tab to refresh it.
+
 ## Project structure
 
 ```
