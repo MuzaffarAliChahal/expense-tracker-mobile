@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="540" fill="#ffffff"/>
+  <text x="60" y="66" fill="#0f172a" font-size="32" font-weight="700">Expense Tracker Mobile</text>
+  <text x="60" y="98" fill="#64748b" font-size="18">React Native app and Spring Boot backend</text>
+  <g font-size="17" text-anchor="middle">
+    <rect x="50" y="140" width="560" height="340" rx="14" fill="#f5f3ff" stroke="#8b5cf6" stroke-dasharray="6 5"/>
+    <text x="70" y="168" text-anchor="start" fill="#6d28d9" font-size="14" font-weight="600" letter-spacing="2">EXPO APP · IOS / ANDROID / WEB</text>
+    <rect x="80" y="190" width="500" height="64" rx="10" fill="#fff" stroke="#6d28d9" stroke-width="2"/>
+    <text x="330" y="220" font-weight="600" fill="#4c1d95">Screens: Login · Expenses · Add · Report · Settings</text>
+    <text x="330" y="242" fill="#6d28d9" font-size="14">React Navigation (stack + tabs)</text>
+    <rect x="80" y="280" width="240" height="70" rx="10" fill="#fff" stroke="#6d28d9" stroke-width="2"/>
+    <text x="200" y="310" font-weight="600" fill="#4c1d95">AuthContext</text>
+    <text x="200" y="334" fill="#6d28d9" font-size="14">session · 401 sign-out</text>
+    <rect x="340" y="280" width="240" height="70" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2"/>
+    <text x="460" y="310" font-weight="600" fill="#134e4a">SecureStore</text>
+    <text x="460" y="334" fill="#0f766e" font-size="14">JWT in Keychain / Keystore</text>
+    <rect x="80" y="376" width="240" height="70" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="200" y="406" font-weight="600" fill="#1e3a8a">HTTP client</text>
+    <text x="200" y="430" fill="#1e40af" font-size="14">Bearer token · ProblemDetail</text>
+    <rect x="340" y="376" width="240" height="70" rx="10" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+    <text x="460" y="406" font-weight="600" fill="#713f12">Demo API</text>
+    <text x="460" y="430" fill="#854d0e" font-size="14">in-memory, no server</text>
+
+    <rect x="700" y="140" width="450" height="340" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-dasharray="6 5"/>
+    <text x="720" y="168" text-anchor="start" fill="#475569" font-size="14" font-weight="600" letter-spacing="2">EXPENSE-TRACKER-API · SPRING BOOT</text>
+    <rect x="730" y="190" width="390" height="70" rx="10" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+    <text x="925" y="220" font-weight="600" fill="#14532d">Spring Security · JWT filter</text>
+    <text x="925" y="244" fill="#166534" font-size="14">/api/auth · /api/expenses · /api/reports</text>
+    <rect x="730" y="286" width="390" height="70" rx="10" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="925" y="316" font-weight="600" fill="#4c1d95">Services</text>
+    <text x="925" y="340" fill="#5b21b6" font-size="14">per-user data isolation · paging · monthly report</text>
+    <rect x="730" y="382" width="390" height="70" rx="10" fill="#fff" stroke="#ea580c" stroke-width="2"/>
+    <text x="925" y="412" font-weight="600" fill="#7c2d12">PostgreSQL 16 + Flyway</text>
+    <text x="925" y="436" fill="#9a3412" font-size="14">users · categories · expenses</text>
+  </g>
+  <g stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#a)">
+    <path d="M200 446 V498 H655 V225 H730"/>
+    <path d="M925 260 V286"/>
+    <path d="M925 356 V382"/>
+  </g>
+  <text x="676" y="330" fill="#64748b" font-size="14" transform="rotate(-90 676 330)" text-anchor="middle">HTTPS · JSON · Bearer JWT</text>
+  <text x="60" y="528" fill="#94a3b8" font-size="15">Muzaffar Ali Hakim · Open-source React Native project · GitHub</text>
+</svg>
